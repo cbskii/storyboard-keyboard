@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "SFMicroMod")(type "KiCad")(uri "${KIPRJMOD}/storyboard.pretty/SFMicroMod.kicad_sym")(options "")(descr ""))
+)
