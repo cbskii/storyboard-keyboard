@@ -173,4 +173,24 @@
       e2d9dddd-8768-4d33-90d4-74275e090f29
     )
   )
+  (model "${KIPRJMOD}/Pin Header 1x10 TH Pitch 2.54mm.stp"
+    (offset (xyz 48 -4.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+  (model "${KIPRJMOD}/Pin Header 1x10 TH Pitch 2.54mm.stp"
+    (offset (xyz 50.5 -4.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+  (model "${KIPRJMOD}/Pin Header 1x10 TH Pitch 2.54mm.stp"
+    (offset (xyz 50.5 -30 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+  (model "${KIPRJMOD}/Pin Header 1x10 TH Pitch 2.54mm.stp"
+    (offset (xyz 48 -30 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

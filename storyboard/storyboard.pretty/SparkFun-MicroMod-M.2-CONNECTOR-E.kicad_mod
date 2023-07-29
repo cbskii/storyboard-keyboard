@@ -309,7 +309,6 @@
   (fp_arc (start 2.02438 -1.14808) (mid 2.62382 -1.74752) (end 3.22326 -1.14808) (layer "Dwgs.User") (width 0.0508) (tstamp a7c87787-9f9a-4d10-baae-f32a73150f4c))
   (fp_circle (center 3.99796 -20.24888) (end 3.99796 -23.24862) (layer "Dwgs.User") (width 0.04826) (fill none) (tstamp 53652b68-e77a-4484-90b9-3910ca274f1d))
   (pad "" np_thru_hole circle (at -9.99998 0) (size 1.59766 1.59766) (drill 1.59766) (layers *.Cu *.Mask) (tstamp 6cdb19c3-97d6-4ea2-a0fa-c53e655d41b3))
-  (pad "" np_thru_hole circle (at 3.99796 -20.24888) (size 6 6) (drill 3.7) (layers *.Mask "F.Cu") (tstamp d78f5ffc-d451-4c59-bef1-6fbb99a84eac))
   (pad "" np_thru_hole circle (at 9.99998 0) (size 1.09982 1.09982) (drill 1.09982) (layers *.Cu *.Mask) (tstamp f94ca782-6c78-4c11-b639-bf9d931be391))
   (pad "1" smd rect (at 9.24814 5.27304 180) (size 0.29972 1.5494) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 89da45b6-dc68-4ba0-9e00-d9419055d4f9))
   (pad "2" smd rect (at 8.99922 -2.2733 180) (size 0.29972 1.5494) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6baea7eb-acfb-4bce-9608-a5abffb7dcad))
@@ -380,4 +379,9 @@
   (pad "75" smd rect (at -9.24814 5.27304 180) (size 0.29972 1.5494) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0c3f1a80-2b66-4dfb-b5d4-a069f43f6186))
   (pad "A1" smd rect (at 10.34796 4.49834 180) (size 1.19888 2.74828) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 836b526b-c7cc-47d8-8f85-9ca91d15754d))
   (pad "A2" smd rect (at -10.34796 4.49834 180) (size 1.19888 2.74828) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8d81efa8-9068-4076-8856-59b9445829f7))
+  (model "${KIPRJMOD}/MDT420E03001--3DModel-STEP-269445.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
 )
