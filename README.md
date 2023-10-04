@@ -1,6 +1,6 @@
 # Storyboard Keyboard PCB
 
-The "Storyboard" is a small ortholinear keyboard with an E-INK display in the middle. This is a hobby project so I've designed the keyboard with learning and experimentation in mind. Most components are SMT and can be assembled by the PCB manufacturer for added cost leaving only a few headers to be soldered by hand. The `production_files` directory contains gerber files and BOM needed for manufacturing.
+The "Storyboard" is a 5x12 ortholinear keyboard with an E-INK display in the middle. This is a hobby project so I've designed the keyboard with learning and experimentation in mind. Most components are SMT and can be assembled by the PCB manufacturer for added cost leaving only a few headers to be soldered by hand. The `production_files` directory contains gerber files and BOM needed for manufacturing.
 
 ## Features:
 - Ortholinear 5x12 key arrangement.
