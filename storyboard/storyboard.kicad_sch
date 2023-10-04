@@ -3375,7 +3375,7 @@
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid 2c22abc3-155b-4824-9728-cad64a1dced9)
   )
-  (text "Key interrupt operation:\n1. Set all rows low\n2. When any key is pressed nKEY_INT will be pulled low\n   and trigger interrupt\n3. Disable interrupt, set all rows high, start scan routine..."
+  (text "Key Interrupt Operation:\n1. Set all rows low\n2. When any key is pressed nKEY_INT will be pulled low\n   and trigger interrupt\n3. Disable interrupt, set all rows high, start scan routine"
     (at 219.71 281.94 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6d9f20d2-2074-4189-93b1-154be862bf81)
@@ -3393,7 +3393,7 @@
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid 89fe297d-aecd-4118-a6f9-f1a105ef4cd4)
   )
-  (text "SPI is used to\nsimplify and speed up\nshift register reads/writes.\nBus cannot currently be shared with\nother SPI devices because shift\nregister output is not tri-state."
+  (text "SPI can be used to\nsimplify and speed up\nshift register reads/writes.\nBus cannot currently be shared with\nother SPI devices because shift\nregister output is not tri-state."
     (at 342.9 140.97 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 993559ba-0bef-4db1-967e-ba6f3b8999b3)
@@ -3419,8 +3419,8 @@
     (effects (font (size 2 2) (thickness 0.4) bold) (justify right bottom))
     (uuid e831eb35-2fc3-4703-bae7-02c312dbf8ee)
   )
-  (text "Note: nMATRIX_LD should be low for PISO enable and high for SIPO enable"
-    (at 88.9 93.98 0)
+  (text "Basic Key Scan Operation:\n1. Set nMATRIX_LD high to enable SIPO write\n2. Write to SIPO to set one row low and others high\n3. Set nMATRIX_LD low to store column values in PISOs\n4. Set nMATRIX_LD high to enable PISO read\n5. Read column values from PISO\n6. Repeat steps 2-5 for all rows"
+    (at 78.74 41.91 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f32063d7-0a38-4f09-b825-f4905e3eeec1)
   )
