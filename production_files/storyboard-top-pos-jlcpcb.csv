@@ -1,0 +1,5 @@
+Designator,Val,Package,MidX,MidY,Rotation,Layer
+J1,Debug Breakout,PinHeader_1x05_P2.54mm_Vertical,224.023,-133.096,-90,top
+J4,Conn_02x20_Odd_Even,Waveshare_ePaper_HAT_352,179,-50.3,0,top
+SW61,RESET,SW_PUSH_6mm,178.95,-128.95,0,top
+SW62,BOOT,SW_PUSH_6mm,190.15,-128.95,0,top
