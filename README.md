@@ -1,14 +1,14 @@
 # Storyboard Keyboard PCB
 
-The "Storyboard" is a 5x12 ortholinear keyboard with an E-INK display in the middle. This is a hobby project so I've designed the keyboard with learning and experimentation in mind. Most components are SMT and can be assembled by the PCB manufacturer for added cost leaving only a few headers to be soldered by hand. The `production_files` directory contains gerber files and BOM needed for manufacturing.
+The "Storyboard" is a 5x12 ortholinear keyboard with an E-INK display in the middle. This is a hobby project so I've designed the keyboard with learning and experimentation in mind. Most components are SMT and can be assembled by the PCB manufacturer for added cost leaving only a few headers to be soldered by hand. The `production_files` directory contains gerber files and BOM needed for PCB manufacturing.
 
 ## Features
-- Ortholinear 5x12 key arrangement.
+- Ortholinear 5x12 key arrangement (size of standard 60% keyboard).
 - Hot swap key switches with split FR4 plates.
+- QMK firmware ([development branch](https://github.com/cbskii/qmk_firmware/tree/master/keyboards/storyboard)).
 - E-Ink display for personalization ([3.52" Waveshare e-Paper HAT](https://www.waveshare.com/3.52inch-e-paper-hat.htm)). Last set image will remain even when keyboard is unplugged/powered off.
-- Support for 60% keyboard cases. **NOTE:** Currently only supports O-Ring based push fit cases like the Bakeneko60.
 - Support for different [Sparkfun Micromod](https://www.sparkfun.com/micromod) processor boards allowing for easy swap of the underlying MCU and related functionality (requires firmware change).
-- Shift register based key matrix that requires only 4 GPIOs. Also potentially supports SPI based reads/writes, but as of writing this is untested.
+- Shift register based key matrix that requires only 4 GPIOs.
 - Key press interrupt support to enable lower power usage modes.
 - USB daughterboard support (e.g. [Unified Daughterboard](https://github.com/Unified-Daughterboard/)).
 
