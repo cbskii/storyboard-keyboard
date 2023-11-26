@@ -1,16 +1,17 @@
 # Storyboard Keyboard PCB
 
-The "Storyboard" is a 5x12 ortholinear keyboard with an E-INK display in the middle. This is a hobby project so I've designed the keyboard with learning and experimentation in mind. Most components are SMT and can be assembled by the PCB manufacturer for added cost leaving only a few headers to be soldered by hand. The `production_files` directory contains gerber files and BOM needed for PCB manufacturing.
+The "Storyboard" is a 5x12 ortholinear keyboard with an E-Paper display in the middle. This is a hobby project so I've designed the keyboard with learning and experimentation in mind. Most components are SMT and can be assembled by the PCB manufacturer for added cost leaving only a few headers to be soldered by hand. The `production_files` directory contains gerber files and a BOM needed for PCB manufacturing.
 
 ## Features
-- Ortholinear 5x12 key arrangement (size of standard 60% keyboard).
+- Ortholinear "split" 5x12 key arrangement.
 - Hot swap key switches with split FR4 plates.
-- QMK firmware ([development branch](https://github.com/cbskii/qmk_firmware/tree/master/keyboards/storyboard)).
-- E-Ink display for personalization ([3.52" Waveshare e-Paper HAT](https://www.waveshare.com/3.52inch-e-paper-hat.htm)). Last set image will remain even when keyboard is unplugged/powered off.
+- Fits standard sized 60% keyboard cases that use a USB daughterboard (e.g. Tofu60 and Bakeneko60).
+- E-Paper display for personalization. The [3.7" Waveshare e-Paper HAT](https://www.waveshare.com/3.7inch-e-paper-hat.htm)) fits the best and is supported by the firmware, but the 3.52" would work as well if firmware support is added. Last set image will remain even when keyboard is unplugged/powered off (but recommended to refresh the display every now and then by rebooting the keyboard).
+- USB daughterboard support (e.g. [Unified Daughterboard](https://github.com/Unified-Daughterboard/)).
 - Support for different [Sparkfun Micromod](https://www.sparkfun.com/micromod) processor boards allowing for easy swap of the underlying MCU and related functionality (requires firmware change).
+- QMK firmware ([development branch](https://github.com/cbskii/qmk_firmware/tree/master/keyboards/storyboard)).
 - Shift register based key matrix that requires only 4 GPIOs.
 - Key press interrupt support to enable lower power usage modes.
-- USB daughterboard support (e.g. [Unified Daughterboard](https://github.com/Unified-Daughterboard/)).
 
 ## Inspiration
 - [Lumberjack](https://github.com/peej/lumberjack-keyboard)

@@ -1,2 +1,4 @@
-Revision History:
-1.0: Initial Schematic and PCB
+Revision History
+----------------
+1.0: Initial Schematic and PCB.
+1.1: Add top mount plates for Tofu60. Move from 3.52" display to 3.7".
