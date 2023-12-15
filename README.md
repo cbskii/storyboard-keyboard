@@ -20,7 +20,6 @@ The "Storyboard" is a 5x12 ortholinear keyboard with an E-Paper display in the m
 
 ## Pictures
 ![storyboard-space](https://github.com/cbskii/storyboard-keyboard/assets/16770076/8a669d00-ad63-478d-9b16-c08ad3f82c0a)
-![storyboard-flowers](https://github.com/cbskii/storyboard-keyboard/assets/16770076/1a8f4385-c322-4843-b1c1-cc1ccb8687ff)
 ![storyboard-rev1-front](https://github.com/cbskii/storyboard-keyboard/assets/16770076/1539c134-f4d8-4b7b-94f2-d11e5dc67efb)
 ![storyboard-rev1-back](https://github.com/cbskii/storyboard-keyboard/assets/16770076/7c4fc81d-7380-4ae1-8a54-98725b1e2470)
 
