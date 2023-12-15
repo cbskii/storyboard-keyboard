@@ -6,7 +6,7 @@ The "Storyboard" is a 5x12 ortholinear keyboard with an E-Paper display in the m
 - Ortholinear "split" 5x12 key arrangement.
 - Hot swap key switches with split FR4 plates.
 - Fits standard sized 60% keyboard cases that use a USB daughterboard (e.g. Tofu60 and Bakeneko60).
-- E-Paper display for personalization. The [3.7" Waveshare e-Paper HAT](https://www.waveshare.com/3.7inch-e-paper-hat.htm)) fits the best and is supported by the firmware, but the 3.52" would work as well if firmware support is added. Last set image will remain even when keyboard is unplugged/powered off (but recommended to refresh the display every now and then by rebooting the keyboard).
+- E-Paper display for personalization. The [3.7" Waveshare e-Paper HAT](https://www.waveshare.com/3.7inch-e-paper-hat.htm) fits the best and is supported by the firmware, but the 3.52" would work as well if firmware support is added. Last set image will remain even when keyboard is unplugged/powered off (but recommended to refresh the display every now and then by rebooting the keyboard).
 - USB daughterboard support (e.g. [Unified Daughterboard](https://github.com/Unified-Daughterboard/)).
 - Support for different [Sparkfun Micromod](https://www.sparkfun.com/micromod) processor boards allowing for easy swap of the underlying MCU and related functionality (requires firmware change).
 - QMK firmware ([development branch](https://github.com/cbskii/qmk_firmware/tree/master/keyboards/storyboard)).
